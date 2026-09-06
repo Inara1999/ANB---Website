@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANB Mobile & Computer Accessories | Official Store Pakistan</title>
+    <meta name="description" content="ANB Mobile & Computer Accessories - Your One-Stop Shop For Mobile, Laptop, Computer & Networking Accessories in Pakistan. Owner: Ali Ammar. Contact: 0302-4007420." />
+    <meta name="keywords" content="ANB Mobile, Ali Ammar, Mobile Accessories Pakistan, Fast Chargers, Power Banks, Earbuds, Laptop Accessories, Networking Products, Keyboards, JazzCash, Easypaisa" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script>
+      // Prevent theme flash on page load
+      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+  <body class="bg-white dark:bg-[#0f172a] text-slate-800 dark:text-slate-100 font-sans antialiased selection:bg-[#ff6b00] selection:text-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
